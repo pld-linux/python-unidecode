@@ -9,6 +9,7 @@ Source0:	http://pypi.python.org/packages/source/U/Unidecode/%{module}-%{version}
 # Source0-md5:	c4c9ed8d40cff25c390ff5d5112b9308
 URL:		http://pypi.python.org/pypi/Unidecode/
 BuildRequires:	python-devel >= 1:2.5
+BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildRequires:	sed >= 4.0
