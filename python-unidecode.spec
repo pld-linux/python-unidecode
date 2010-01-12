@@ -1,6 +1,6 @@
 %define		module	Unidecode
 Summary:	ASCII transliterations of Unicode text
-Name:		python-%{module}
+Name:		python-unidecode
 Version:	0.04.1
 Release:	1
 License:	GPL v1+ or Artistic
