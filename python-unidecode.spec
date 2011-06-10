@@ -1,18 +1,16 @@
 %define		module	Unidecode
 Summary:	ASCII transliterations of Unicode text
 Name:		python-unidecode
-Version:	0.04.1
+Version:	0.04.7
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Libraries/Python
 Source0:	http://pypi.python.org/packages/source/U/Unidecode/%{module}-%{version}.tar.gz
-# Source0-md5:	c4c9ed8d40cff25c390ff5d5112b9308
+# Source0-md5:	c67bc90041ffc45a1d0f5cba5feb0e14
 URL:		http://pypi.python.org/pypi/Unidecode/
-BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
-BuildRequires:	sed >= 4.0
 %pyrequires_eq	python
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
