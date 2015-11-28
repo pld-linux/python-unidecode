@@ -2,7 +2,7 @@
 Summary:	ASCII transliterations of Unicode text
 Name:		python-unidecode
 Version:	0.04.9
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Libraries/Python
 Source0:	http://pypi.python.org/packages/source/U/Unidecode/%{module}-%{version}.tar.gz
