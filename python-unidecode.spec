@@ -10,7 +10,7 @@ Source0:	http://pypi.python.org/packages/source/U/Unidecode/%{module}-%{version}
 URL:		http://pypi.python.org/pypi/Unidecode/
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
